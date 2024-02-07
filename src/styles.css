@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Inter&family=Poppins:wght@300;400;500;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Inter&family=Poppins:wght@300;400;500;600&display=swap");
 :root {
   --color-cream: #c5a166;
   --color-green: #18200f;
@@ -35,7 +35,7 @@ body {
   border: none;
   border-radius: 20px 5px 20px 5px;
   font-size: 20px;
-  @apply inline-flex items-center focus:outline-none mt-4 md:mt-0;
+  @apply inline-flex items-center focus:outline-none;
 }
 
 .btn-book:hover {
