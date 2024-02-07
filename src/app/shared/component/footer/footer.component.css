@@ -1,0 +1,4 @@
+.text-footer {
+    @apply
+    text-[#CDA16C] hover:text-white cursor-pointer
+}
