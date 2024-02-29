@@ -1,0 +1,27 @@
+p {
+  color: #ffff;
+}
+
+.navigation {
+  @apply md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center;
+}
+.navigation .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navigation a {
+  color: var(--color-white);
+  padding: 14px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: var(--color-cream);
+  border-bottom: 3px solid var(--color-cream);
+}
+
+.navigation-on {
+  color: var(--color-cream) !important;
+  border-bottom: 3px solid var(--color-cream);
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre&family=Inter&family=Poppins:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #c5a166;
+  --color-green: #18200f;
+  --color-white: #ffffff;
+  --color-blue: #101a24;
+
+  --font-big: "David Libre", sans-serif;
+  --font-medium: "Inter", sans-serif;
+}
+
+body {
+  /* background-color: var(--color-green); */
+  background-image: url(./assets/img/backdrop1.png);
+  overflow-x: hidden;
+}
+
+.logo-img-header {
+  height: 124px;
+  width: 241px;
+  padding: 10px;
+}
+
+.btn-book {
+  font-family: var(--font-big);
+  color: var(--color-green);
+  background-color: var(--color-cream);
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 20px 5px 20px 5px;
+  font-size: 20px;
+  @apply inline-flex items-center focus:outline-none;
+}
+
+.btn-book:hover {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  transition: 0.5s;
+}
+
+.btn-menu {
+  font-family: var(--font-big);
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 20px 5px 20px 5px;
+  font-size: 20px;
+}
+
+.img-rectangle {
+  @apply w-32;
+}
+
+.img-flow {
+  
+}
+
+.btn-sub {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: var(--color-cream);
+  color: var(--color-white);
+  border: none;
+}
