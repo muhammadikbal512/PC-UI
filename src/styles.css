@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Blimone';
+  src: url(../src/assets/font/Blimone/Blimone/Blimone/TTF/Blimone-Bold.ttf) ;
+  src: url(../src/assets/font/Blimone/Blimone/Blimone/OTF/Blimone-Bold.otf) ;
+}
+
 :root {
   --color-cream: #c5a166;
   --color-green: #18200f;
@@ -57,6 +63,10 @@ body {
 
 .img-rectangle {
   @apply w-32;
+}
+
+.font-Bli{
+  font-family: 'Blimone';
 }
 
 .img-flow {
