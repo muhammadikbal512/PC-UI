@@ -15,10 +15,10 @@
       <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'about' ? 'navigation-on' : ''" routerLink="/home/about">About</a>
       <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'contact' ? 'navigation-on' : ''" routerLink="/home/contact">Contact</a>
       <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'reservation' ? 'navigation-on' : ''" routerLink="/home/reservation"
-        >Reservation</a
-      >
+        >Reservation</a >
     </nav>
-    <button class="btn-book">
+
+    <a class="btn-book" href="/home/reservation" >
       Book Table
       <svg
         fill="none"
@@ -29,8 +29,8 @@
         class="w-4 h-4 ml-1"
         viewBox="0 0 24 24"
       >
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <path d="M5 12h14M12 5l7 7-7 7" ></path>
       </svg>
-    </button>
+    </a>
   </div>
 </header>
