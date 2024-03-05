@@ -1,0 +1,18 @@
+.dish-back{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.func{
+    
+}
+div.func:hover .border-white-700 {
+    background-color: rgba(255, 255, 255, 0.8); /* background menjadi putih saat dihover */
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  div.func:hover h2 {
+    color: #183028; /* warna teks title menjadi #183028 saat dihover */
+  }
+  
+  div.func:hover p {
+    color: #182F28; /* warna teks detail menjadi #182F28 saat dihover */
+  }
