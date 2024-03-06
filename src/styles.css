@@ -60,6 +60,16 @@ body {
   border-radius: 20px 5px 20px 5px;
   font-size: 20px;
 }
+.testimonn {
+  font-family: var(--font-big);
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 20px 5px 20px 5px;
+  font-size: 20px;
+}
 
 .img-rectangle {
   @apply w-32;
