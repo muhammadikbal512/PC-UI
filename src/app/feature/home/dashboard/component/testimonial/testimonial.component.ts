@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './testimonial.component.html',
   styleUrl: './testimonial.component.css'
+    
 
   
 })
