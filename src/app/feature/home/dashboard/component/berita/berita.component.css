@@ -1,0 +1,9 @@
+.container h2 {
+  font-family: "Blimone";
+  font-weight: bold;
+}
+
+.container button {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+}

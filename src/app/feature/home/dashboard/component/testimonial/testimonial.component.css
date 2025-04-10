@@ -1,3 +1,14 @@
-p {
-    @apply text-white
+.container h2 {
+  font-family: "Blimone";
+  font-weight: bold;
+}
+
+.container p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.container button {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
 }

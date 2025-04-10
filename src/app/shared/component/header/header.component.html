@@ -1,36 +1,48 @@
-<header class="body-font">
+<header class="wadah">
   <div
     class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
   >
-    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer" routerLink="/home/dashboard">
+    <a
+      class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer"
+      routerLink="/home/dashboard"
+    >
       <img
-        src="../../../../assets/img/plant-culture.png"
+        src="../../../../assets/img/logo-pc.png"
         alt=""
         class="logo-img-header"
       />
     </a>
     <nav class="navigation">
-      <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'menu' ? 'navigation-on' : ''" routerLink="/home/menu">Menu</a>
-      <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'vip-room' ? 'navigation-on' : ''" routerLink="/home/vip-room">VIP Room</a>
-      <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'about' ? 'navigation-on' : ''" routerLink="/home/about">About</a>
-      <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'contact' ? 'navigation-on' : ''" routerLink="/home/contact">Contact</a>
-      <a class="mr-5 text-white hover:text-red-600 cursor-pointer" [className]="routerLink === 'reservation' ? 'navigation-on' : ''" routerLink="/home/reservation"
-        >Reservation</a
+      <a
+        class="mr-5 cursor-pointer"
+        [className]="routerLink === 'dashboard' ? 'navigation-on' : ''"
+        routerLink="/home/dashboard"
+        >Beranda</a
+      >
+      <a
+        class="mr-5 cursor-pointer"
+        [className]="routerLink === 'about' ? 'navigation-on' : ''"
+        routerLink="/home/about"
+        >Tentang Plant Culture</a
+      >
+      <a
+        class="mr-5 cursor-pointer"
+        [className]="routerLink === '#' ? 'navigation-on' : ''"
+        routerLink="/home/#"
+        >Menu</a
+      >
+      <a
+        class="mr-5 cursor-pointer"
+        [className]="routerLink === 'contact' ? 'navigation-on' : ''"
+        routerLink="/home/contact"
+        >Lokasi</a
+      >
+      <a
+        class="mr-5 cursor-pointer"
+        [className]="routerLink === '#' ? 'navigation-on' : ''"
+        routerLink="/home/#"
+        >Berita & Promo</a
       >
     </nav>
-    <button class="btn-book">
-      Book Table
-      <svg
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        class="w-4 h-4 ml-1"
-        viewBox="0 0 24 24"
-      >
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
   </div>
 </header>

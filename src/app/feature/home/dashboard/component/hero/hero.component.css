@@ -1,3 +1,21 @@
-p {
-    @apply text-white
+.hero-body {
+  background-image: url("../../../../../../assets/img/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container h2 {
+  font-family: "Blimone";
+  font-weight: bold;
+}
+
+.container p {
+  font-family: "Blimone";
+  font-weight: 500;
+}
+
+.container button {
+  font-family: "Blimone";
+  font-weight: 500;
 }

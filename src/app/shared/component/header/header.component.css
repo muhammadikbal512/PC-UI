@@ -1,3 +1,11 @@
+.wadah {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 p {
   color: #ffff;
 }
@@ -5,20 +13,28 @@ p {
 .navigation {
   @apply md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center;
 }
+
+.logo-img-header {
+  width: 25%;
+  height: auto;
+}
+
 .navigation .navigation-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 .navigation a {
-  color: var(--color-white);
+  color: white;
+  font-family: "Blimone";
+  font-weight: 600;
   padding: 14px 30px;
   font-size: 20px;
   text-decoration: none;
 }
 .navigation a:hover {
-  color: var(--color-cream);
-  border-bottom: 3px solid var(--color-cream);
+  color: #c5a166;
+  transform: scale(1.15);
 }
 
 .navigation-on {
