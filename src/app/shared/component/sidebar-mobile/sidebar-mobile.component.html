@@ -1,0 +1,33 @@
+<!-- Sidebar Mobile (Menu Samping) -->
+<nav
+  class="md:hidden fixed top-0 right-0 w-[250px] h-full bg-black text-white z-50 shadow-lg transform transition-transform duration-300 ease-in-out"
+  [ngClass]="{
+    'translate-x-0 opacity-100 visible': isMenuOpen,
+    'translate-x-full opacity-0 invisible': !isMenuOpen
+  }"
+>
+  <!-- Tombol Silang -->
+  <div class="flex justify-end p-4">
+    <div class="relative w-6 h-6 cursor-pointer" (click)="isMenuOpen = false">
+      <span
+        class="absolute top-1/2 left-1 w-full h-0.5 bg-white rotate-45"
+      ></span>
+      <span
+        class="absolute top-1/2 left-1 w-full h-0.5 bg-white -rotate-45"
+      ></span>
+    </div>
+  </div>
+
+  <!-- Navigasi -->
+  <div class="navigation p-4">
+    <a class="block cursor-pointer mb-4" routerLink="/home/dashboard"
+      >Beranda</a
+    >
+    <a class="block cursor-pointer mb-4" routerLink="/home/about"
+      >Tentang Plant Culture</a
+    >
+    <a class="block cursor-pointer mb-4" routerLink="/home/#">Menu</a>
+    <a class="block cursor-pointer mb-4" routerLink="/home/contact">Lokasi</a>
+    <a class="block cursor-pointer mb-4" routerLink="/home/#">Berita & Promo</a>
+  </div>
+</nav>

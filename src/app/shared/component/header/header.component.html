@@ -1,18 +1,18 @@
 <header class="wadah">
   <div
-    class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+    class="w-full px-5 md:container md:mx-auto flex pb-5 pt-5 items-center justify-between"
   >
-    <a
-      class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer"
-      routerLink="/home/dashboard"
-    >
+    <a class="cursor-pointer" routerLink="/home/dashboard">
       <img
         src="../../../../assets/img/logo-pc.png"
         alt=""
-        class="logo-img-header"
+        class="w-24 md:w-32 object-contain"
       />
     </a>
-    <nav class="navigation">
+
+    <nav
+      class="navigation max-md:hidden visible flex flex-wrap items-center text-base justify-center overflow-hidden"
+    >
       <a
         class="mr-5 cursor-pointer"
         [className]="routerLink === 'dashboard' ? 'navigation-on' : ''"
@@ -44,5 +44,19 @@
         >Berita & Promo</a
       >
     </nav>
+
+    <!-- Hamburger -->
+    <div
+      class="md:hidden ml-[40%] flex flex-col items-center space-y-1 cursor-pointer z-50"
+      (click)="toggleMenu()"
+      id="hamburger"
+    >
+      <div class="bg-white w-7 h-1 rounded-sm"></div>
+      <div class="bg-white w-7 h-1 rounded-sm"></div>
+      <div class="bg-white w-7 h-1 rounded-sm"></div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <app-sidebar-mobile [isMenuOpen]="isMenuOpen"></app-sidebar-mobile>
   </div>
 </header>

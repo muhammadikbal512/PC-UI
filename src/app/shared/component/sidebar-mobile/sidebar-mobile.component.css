@@ -1,0 +1,19 @@
+/* Optional: Customizing the sidebar */
+nav {
+  background-color: #000;
+  transition: transform 0.3s ease;
+}
+
+.navigation a {
+  color: white;
+  font-family: "Blimone";
+  font-weight: 600;
+  padding: 14px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #c5a166;
+  transform: scale(1.15);
+}
