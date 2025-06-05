@@ -1,0 +1,24 @@
+.container h1 {
+  font-family: "Blimone";
+  font-weight: bold;
+}
+
+.container h2 {
+  font-family: "Blimone";
+  font-weight: 500;
+}
+
+.container p {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
+.container span {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.container button {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+}
